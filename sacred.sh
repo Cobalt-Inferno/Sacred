@@ -15,7 +15,8 @@ git_sources_defaults=(
 
 repodir=/tmp/repo
 
-
+curl ifconfig.me
+sleep 10
 snip() {
   echo "$1" | rev | cut -d "/" -f1 | rev
 }
