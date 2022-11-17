@@ -1,5 +1,6 @@
 
 needed_x=(
+  xorg xinit xtoolsvi 
   base-devel libX11-devel libXft-devel
   libXinerama-devel freetype-devel fontconfig-devel
   git curl imlib2
@@ -111,6 +112,13 @@ if [ "$_cont" = "y" ]; then
     echo "source ~/.zsh/deer.zsh" >> ~/.zshrc
   fi
 fi
+
+
+# final software
+last_pkgs=(
+  firefox
+  )
+
 
 
 rm -rf "$repodir"
