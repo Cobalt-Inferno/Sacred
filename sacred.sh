@@ -10,6 +10,7 @@ needed_x=(
 
 git_sources_defaults=(
   https://github.com/kavulox/dwm
+  https://github.com/kavulox/dwmblocks
 )
 
 repodir=/tmp/repo
